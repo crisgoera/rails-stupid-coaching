@@ -1,4 +1,4 @@
-<div class='container'>
+<div class='container pt-5'>
   <div id='user' class='border-left'>
     <strong><%= @input %> <br></strong>
     <p>-- You</p>
@@ -8,8 +8,6 @@
     <strong><%= @answer %> <br></strong>
     <p>--Coach</p>
   </div>
+
+  <%= link_to 'Ask another question', '/ask' %>
 </div>
-
-
-
-<%= link_to 'Ask another question', '/ask' %>
